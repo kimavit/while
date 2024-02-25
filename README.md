@@ -18,3 +18,13 @@ while a >= 0:
     a = int(input())
 print(counter)
 ````````````````````````
+``````````````````ruby
+a = int(input())
+total = 0
+while a >= 0 and a < 6:
+    if a == 5:
+        total += 1
+    a = int(input())
+        
+print(total)
+```````````````````````
