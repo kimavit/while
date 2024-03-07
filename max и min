@@ -8,5 +8,5 @@ while n != 0:
     if n1 > max:
         max = n1
     n = n//10
-print("Максимальная цифра равна", max)
-print("Минимальная цифра равна", min)
+print("The maximum number is", max)
+print("The minimum number is", min)
