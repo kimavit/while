@@ -28,3 +28,17 @@ while a >= 0 and a < 6:
         
 print(total)
 ```````````````````````
+`````````````````````````````````````ruby
+n = int(input())
+max = 0
+min = 9
+while n != 0:
+    n1 = n % 10
+    if n1 < min:
+        min = n1
+    if n1 > max:
+        max = n1
+    n = n//10
+print("The maximum number is", max)
+print("The minimum number is", min)
+```````````````````````````````````
