@@ -1,0 +1,15 @@
+n = int(input())
+cnt = 0
+tot = 0
+mul = 1
+last_dig = n % 10
+while n != 0:
+    digi = n % 10
+    cnt += digi
+    tot += 1
+    mul = mul * digi
+    n1 = cnt // tot
+    num1 = n % 10
+    sum = num1 + last_dig
+    n = n//10
+print(cnt, tot, mul, n1, num1, sum, sep="\n")
