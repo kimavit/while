@@ -1,0 +1,9 @@
+
+n = int(input())
+last_2 = n % 10
+while n > 9:
+    last = n % 10
+    n = n//10
+    last_2 = last
+print(last_2)
+
