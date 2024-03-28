@@ -42,3 +42,18 @@ while n != 0:
 print("The maximum number is", max)
 print("The minimum number is", min)
 ```````````````````````````````````
+```````````````````````````````````ruby
+num = int(input())
+last_digit = num % 10
+same = True
+while num != 0:
+    num1 = num % 10
+    if last_digit != num1:
+        same = False
+    num = num//10
+
+if same == True:
+        print("YES")
+else:
+     print("NO")
+``````````````````````````````````````````
