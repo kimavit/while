@@ -41,5 +41,5 @@ while n != 0:
     n = n//10
 print("The maximum number is", max)
 print("The minimum number is", min)
-````````````````````````````````````
+```````````````````````````````
 
